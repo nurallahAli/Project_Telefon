@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Lalezar&family=Open+Sans:wght@300;400;500;600;700;800&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Tajawal', sans-serif;
+}
+/* Navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    height: 10vh;
+}
+nav .bars-menu i{
+    display: none;
+}
+nav .logo{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+}
+nav .logo i{
+    color: #6e0aef;
+    padding-left: 0.75rem;
+}
+nav .logo h4{
+    font-family: "Lalezar", cursive;
+}
+nav .nav-items{
+    display: flex;
+    list-style-type: none;
+}
+nav .nav-items .nav-iten{
+    padding: 0 1rem;
+}
+nav .nav-items .nav-link{
+    text-decoration: none;
+    color: #4e547e;
+    font-size: 1.4rem;
+}
+nav .nav-items .nav-link:hover{
+    color: #6e0aef;
+}
+/* Navbar */
+/* Hero Section */
+section.hero{
+    background-color: #f8f7fc;
+}
+.hero .hero-section{
+    max-width: 1366px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+.hero .hero-section .content{
+    display: flex;
+    flex-direction: column;
+}
+.hero .hero-section .content h4{
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.hero .hero-section .content h1{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+.hero .hero-section .content p{
+    color: rgb(29, 29, 29);
+    font-size: 1.4rem;
+}
+.hero .hero-section .content span.purple{
+    color: #6e0aef;
+}
+.btn{
+    width: 10rem;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    background-color: #6e0aef;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4rem;
+}
+.btn:hover{
+    background-color: #964ff4;
+    cursor: pointer;
+}
+/* Hero Section */
+/* Featurs Section */
+.featurs{
+    padding: 2rem 0;
+    background-color: #f8f7fc;
+}
+.featurs .feat-section{
+    display: flex;
+    margin: 0 auto;
+    padding: 0 5rem;
+    max-width: 1366px;
+    flex-direction: column;
+    justify-content: center;
+}
+.featurs .feat-section h4{
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+.featurs .feat-section .qualities{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.featurs .feat-section .qualities .quality{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 2rem;
+    max-width: 17rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.featurs .feat-section .qualities .quality:hover{
+    border: 2px solid #6e0aef;
+}
+.featurs .feat-section .qualities .quality i{
+    font-size: 2rem;
+    color: #6e0aef;
+    margin-bottom: 1rem;
+}
+.featurs .feat-section .qualities .quality h3{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.featurs .feat-section .qualities .quality p{
+    font-size: 1.2rem;
+    color: #4e547e;
+    text-align: center;
+}
+/* Featurs Section */
+/* What's New Section */
+.newst-phones{
+    padding-top: 5rem;
+}
+.newst-phones .phones-section{
+    margin: 0 auto;
+    padding: 0 5rem;
+    max-width: 1366px;
+    display: flex;
+    flex-direction: column;
+}
+.newst-phones .phones-section h4{
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+.phones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: flex-start;
+}
+.phones .phone{
+    margin: 2rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phones .phone img{
+    margin-bottom: 1rem;
+}
+.phones .phone img:hover{
+    scale: 1.1;
+}
+.phones .phone h3{
+    font-size: 1.6rem;
+}
+.newst-phones button{
+    width: 15rem;
+    margin-bottom: 1rem;
+    align-self: center;
+
+}
+/* What's New Section */
+/* FOOTER */
+footer{
+    background-color: #f8f7fc;
+    height: 15vh;
+    margin-top: 5rem;
+    padding: 2rem 0;
+}
+footer .footer-sec{
+    display: flex;
+    margin: 0 auto;
+    padding: 0 5rem;
+    max-width: 1366px;
+    align-items: center;
+    flex-direction: column;
+}
+footer .footer-sec p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+footer .footer-sec .socials{
+    margin-bottom: 1rem;
+}
+footer .footer-sec .socials i{
+    padding: 0 0.5rem;
+    font-size: 1.6rem;
+}
+footer .footer-sec .socials i:hover{
+    color: #6e0aef;
+    cursor: pointer;
+}
+/* FOOTER */
+/* Responsive Design */
+@media (max-width: 1300px) {
+*{
+    font-size: 85%;
+}
+}
+@media (max-width: 1170px) {
+*{
+    font-size: 80%;
+}
+}
+@media (max-width: 1000px) {
+*{
+    text-align: center;
+}
+.hero img{
+    display: none;
+}
+.hero-section{
+    align-items: center;
+    padding: 2rem 0;
+    width: 50%;
+}
+.hero .btn{
+    align-self: center;
+}
+.featurs .feat-section .qualities{
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.featurs .feat-section{
+    align-items: center;
+}
+.hero .hero-section{
+    height: 50vh;
+}
+.hero .hero-section .content h1{
+    font-size: 2rem;
+}
+}
+@media (max-width: 660px) {
+.hero .hero-section .content h1{
+    font-size: 2rem;
+}
+.newst-phones .phones-section{
+    align-items: center;
+}
+.phones{
+    grid-template-columns: 1fr 1fr;
+}
+}
+@media (max-width: 600px) {
+.phones{
+    grid-template-columns: 1fr;
+}
+nav .bars-menu i{
+    display: block;
+    font-size: 3rem;
+    }
+nav .nav-items{
+    position: absolute;
+    left: 0;
+    top: 10vh;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+    display: none;
+    background-color: #6e0aef;  
+}
+nav .nav-items.active{display: flex;}
+.hero .hero-section .content h1{
+    font-size: 14px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 275px;
+}
+.hero .hero-section .content h4{
+    color: #6e0aef;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    margin-top: 40px;
+}
+.nav-iten{
+    margin: 1rem 0;
+}
+nav .nav-items .nav-link{
+    color: #fff;
+}
+}
+@media (max-width: 600px) {
+nav{
+     position: sticky;
+     top: 0;
+     width: 100%;   
+    }
+}
+/* Responsive Design */
